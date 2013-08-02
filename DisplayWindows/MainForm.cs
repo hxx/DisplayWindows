@@ -50,16 +50,16 @@ namespace DisplayWindows
 
         private void tESTToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (designTempForm == null || designTempForm.IsDisposed)
+            if (designMainForm == null || designMainForm.IsDisposed)
             {
-                designTempForm = new DesignVideoForm();
-                designTempForm.Show(this.dockPanel);
-                designTempForm.Focus();
+                designMainForm = new DesignMainForm();
+                designMainForm.Show(this.dockPanel);
+                designMainForm.Focus();
             }
             else
             {
-                designTempForm.Show(this.dockPanel);
-                designTempForm.Focus();
+                designMainForm.Show(this.dockPanel);
+                designMainForm.Focus();
             }
           
            

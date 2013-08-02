@@ -110,67 +110,7 @@
             dockPanelSkin2.DockPaneStripSkin = dockPaneStripSkin2;
             this.dockPanel.Skin = dockPanelSkin2;
             this.dockPanel.TabIndex = 0;
-            this.dockPanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dockPanel_MouseDown);
-            // 
-            // dropContextMenuStrip
-            // 
-            this.dropContextMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.属性滴水ToolStripMenuItem});
-            this.dropContextMenuStrip.Name = "dropContextMenuStrip";
-            this.dropContextMenuStrip.Size = new System.Drawing.Size(131, 26);
-            // 
-            // 属性滴水ToolStripMenuItem
-            // 
-            this.属性滴水ToolStripMenuItem.Name = "属性滴水ToolStripMenuItem";
-            this.属性滴水ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
-            this.属性滴水ToolStripMenuItem.Text = "属性(滴水)";
-            // 
-            // videoContextMenuStrip
-            // 
-            this.videoContextMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.MenuToolStripMenuItem,
-            this.删除ToolStripMenuItem,
-            this.置顶ToolStripMenuItem});
-            this.videoContextMenuStrip.Name = "contextMenuStrip";
-            this.videoContextMenuStrip.Size = new System.Drawing.Size(153, 92);
-            this.videoContextMenuStrip.Opening += new System.ComponentModel.CancelEventHandler(this.videoContextMenuStrip_Opening);
-            // 
-            // MenuToolStripMenuItem
-            // 
-            this.MenuToolStripMenuItem.Name = "MenuToolStripMenuItem";
-            this.MenuToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
-            this.MenuToolStripMenuItem.Text = "属性[摄像头]";
-            this.MenuToolStripMenuItem.Click += new System.EventHandler(this.MenuToolStripMenuItem_Click);
-            // 
-            // 删除ToolStripMenuItem
-            // 
-            this.删除ToolStripMenuItem.Name = "删除ToolStripMenuItem";
-            this.删除ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
-            this.删除ToolStripMenuItem.Text = "删除";
-            this.删除ToolStripMenuItem.Click += new System.EventHandler(this.删除ToolStripMenuItem_Click);
-            // 
-            // 置顶ToolStripMenuItem
-            // 
-            this.置顶ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.设为顶层ToolStripMenuItem,
-            this.设为底层ToolStripMenuItem});
-            this.置顶ToolStripMenuItem.Name = "置顶ToolStripMenuItem";
-            this.置顶ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
-            this.置顶ToolStripMenuItem.Text = "位置";
-            // 
-            // 设为顶层ToolStripMenuItem
-            // 
-            this.设为顶层ToolStripMenuItem.Name = "设为顶层ToolStripMenuItem";
-            this.设为顶层ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
-            this.设为顶层ToolStripMenuItem.Text = "设为顶层";
-            this.设为顶层ToolStripMenuItem.Click += new System.EventHandler(this.设为顶层ToolStripMenuItem_Click);
-            // 
-            // 设为底层ToolStripMenuItem
-            // 
-            this.设为底层ToolStripMenuItem.Name = "设为底层ToolStripMenuItem";
-            this.设为底层ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
-            this.设为底层ToolStripMenuItem.Text = "设为底层";
-            this.设为底层ToolStripMenuItem.Click += new System.EventHandler(this.设为底层ToolStripMenuItem_Click);
+            this.dockPanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dockPanel_MouseDown);            
             // 
             // DesignMainForm
             // 
